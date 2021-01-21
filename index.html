@@ -114,7 +114,7 @@
     <script> //function to check if the user is scrolling, to change the navbar color
       $(function () {
         $(document).scroll(function() {
-          var $nav = $("#mainNav");
+          var $nav = $("#mainNavbar");
           $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
         })
       }
