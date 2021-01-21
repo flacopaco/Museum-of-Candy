@@ -3,6 +3,23 @@ body {
     font-family: "Nunito", sans-serif;
 }
 
+.secondtext h2 {
+    color:#EA1C2C;
+    font-weight:100;
+    font-size: 2.5rem;
+}
+
+.secondtext p {
+    color: #f49fb8;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2.0;
+}
+
+.content {
+    margin-top: 100px;
+}
+
 #mainNavbar {
     font-size: 1.5rem;
     font-weight: 100;
@@ -18,11 +35,12 @@ body {
 
 #mainNavbar .navbar-brand {
     color:#EA1C2C;
+    font-size: 1.5rem;
     /*font-size: 1.4rem;
     font-weight: 100; */
 }
 
-#headingrGroup span {
+#headingGroup span {
     color:#EA1C2C;
 }
 
