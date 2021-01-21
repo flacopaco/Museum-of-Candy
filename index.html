@@ -65,7 +65,7 @@
         </div>
         <div class="col-md-6 text-center order-1 order-md-2">
           <div class="row justify-content-center">
-            <div class="col10 col-lg-8 secondtext">
+            <div class="col10 col-lg-8 secondtext mb-5 mb-md-0">
               <h2>MUSEUM OF CANDY</h2>
               <img src="imgs/lolli_icon.png" alt="" class="d-none d-lg-inline">
               <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quod voluptatum dolores dignissimos! Architecto libero nam sed porro, voluptate odio veniam, excepturi, iusto laborum earum animi repellendus quibusdam sequi quisquam molestias ab dolore hic laboriosam! Facere, quaerat. Facere libero suscipit repellat sunt unde, reprehenderit eum eligendi! Magnam voluptas eos fugiat.</p>
@@ -76,18 +76,32 @@
       </div>
       <div class="row align-items-center content">
         <div class="col-md-6 order-2 order-md-1">
-          <img src="imgs/milk.png" alt="" class="img-fluid">
+          <img src="imgs/gumball.png" alt="" class="img-fluid">
         </div>
-        <div class="col-md-6 text-center order-1 order-md-2">
+        <div class="col-md-6 text-center ">
           <div class="row justify-content-center">
-            <div class="col10 col-lg-8 secondtext">
+            <div class="col10 col-lg-8 secondtext mb-5 mb-md-0">
               <h2>MUSEUM OF CANDY</h2>
               <img src="imgs/lolli_icon.png" alt="" class="d-none d-lg-inline">
               <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quod voluptatum dolores dignissimos! Architecto libero nam sed porro, voluptate odio veniam, excepturi, iusto laborum earum animi repellendus quibusdam sequi quisquam molestias ab dolore hic laboriosam! Facere, quaerat. Facere libero suscipit repellat sunt unde, reprehenderit eum eligendi! Magnam voluptas eos fugiat.</p>
             </div>
           </div>
         </div>
-        </div>  
+        </div> 
+        <div class="row align-items-center content">
+          <div class="col-md-6">
+            <img src="imgs/sprinkles.png" alt="" class="img-fluid">
+          </div>
+          <div class="col-md-6 text-center ">
+            <div class="row justify-content-center">
+              <div class="col10 col-lg-8 secondtext mb-5 mb-md-0">
+                <h2>MUSEUM OF CANDY</h2>
+                <img src="imgs/lolli_icon.png" alt="" class="d-none d-lg-inline">
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quod voluptatum dolores dignissimos! Architecto libero nam sed porro, voluptate odio veniam, excepturi, iusto laborum earum animi repellendus quibusdam sequi quisquam molestias ab dolore hic laboriosam! Facere, quaerat. Facere libero suscipit repellat sunt unde, reprehenderit eum eligendi! Magnam voluptas eos fugiat.</p>
+              </div>
+            </div>
+          </div>
+          </div>  
       </div>
     </section>
 
@@ -97,5 +111,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     
+    <script> //function to check if the user is scrolling, to change the navbar color
+      $(function () {
+        $(document).scroll(function() {
+          var $nav = $("#mainNav");
+          $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+        })
+      }
+      )
+    </script>
   </body>
 </html>
